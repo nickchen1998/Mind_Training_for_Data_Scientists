@@ -8,7 +8,7 @@ Created on Mon Jul 26 09:28:37 2021
 import requests, json, time
 import pandas as pd
 
-key = "481b713073486a8cad4158747de7b75b"
+key = ""
 city = "Taipei"
 api = "https://api.openweathermap.org/data/2.5/forecast?q={city}&units=metric&appid={key}".format(city=city, key=key)
 
